@@ -11,8 +11,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/LoneWol38/gohdfs/hadoopconf"
-	hadoop "github.com/LoneWol38/gohdfs/internal/protocol/hadoop_common"
+	"github.com/LoneWolf38/gohdfs/hadoopconf"
+	hadoop "github.com/LoneWolf38/gohdfs/internal/protocol/hadoop_common"
 	hdfs "github.com/LoneWolf38/gohdfs/internal/protocol/hadoop_hdfs"
 	rpc "github.com/LoneWolf38/gohdfs/internal/rpc"
 	transfer "github.com/LoneWolf38/gohdfs/internal/transfer"

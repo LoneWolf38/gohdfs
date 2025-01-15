@@ -1,7 +1,7 @@
 package gohdfs
 
 import (
-	hdfs "github.com/LoneWol38/gohdfs/internal/protocol/hadoop_hdfs"
+	hdfs "github.com/LoneWolf38/gohdfs/internal/protocol/hadoop_hdfs"
 )
 
 // ServerDefaults represents the filesystem configuration stored on the
