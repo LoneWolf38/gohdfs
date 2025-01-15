@@ -8,7 +8,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/LoneWol38/go-hdfs"
+	hdfs "github.com/LoneWol38/go-hdfs"
 )
 
 var errMultipleNamenodeUrls = errors.New("Multiple namenode URLs specified")
