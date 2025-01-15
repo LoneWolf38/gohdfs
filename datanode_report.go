@@ -3,7 +3,7 @@ package hdfs
 import (
 	"fmt"
 
-	hdfs "github.com/colinmarc/hdfs/v2/internal/protocol/hadoop_hdfs"
+	hdfs "github.com/LoneWol38/go-hdfs/internal/protocol/hadoop_hdfs"
 )
 
 // GetDatanodeReport fetches the datanode storage reports

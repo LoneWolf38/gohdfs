@@ -8,12 +8,10 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/colinmarc/hdfs/v2"
+	"github.com/LoneWol38/go-hdfs"
 )
 
-var (
-	errMultipleNamenodeUrls = errors.New("Multiple namenode URLs specified")
-)
+var errMultipleNamenodeUrls = errors.New("Multiple namenode URLs specified")
 
 func userDir(client *hdfs.Client) string {
 	return path.Join("/user", client.User())

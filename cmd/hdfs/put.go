@@ -6,7 +6,7 @@ import (
 	"path"
 	"path/filepath"
 
-	"github.com/colinmarc/hdfs/v2"
+	"github.com/LoneWol38/go-hdfs"
 )
 
 func put(args []string) {
@@ -113,7 +113,6 @@ func putFromFile(client *hdfs.Client, source string, dest string) {
 
 		return nil
 	})
-
 	if err != nil {
 		fatal(err)
 	}

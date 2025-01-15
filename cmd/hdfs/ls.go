@@ -10,7 +10,7 @@ import (
 	"text/tabwriter"
 	"time"
 
-	"github.com/colinmarc/hdfs/v2"
+	"github.com/LoneWolf38/go-hdfs"
 )
 
 func ls(paths []string, long, all, humanReadable, recursive bool) {

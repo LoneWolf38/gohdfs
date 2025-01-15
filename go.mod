@@ -1,4 +1,6 @@
-module github.com/colinmarc/hdfs/v2
+module github.com/LoneWol38/go-hdfs
+
+go 1.23
 
 require (
 	github.com/jcmturner/gokrb5/v8 v8.4.4
@@ -20,5 +22,3 @@ require (
 	golang.org/x/net v0.12.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
 )
-
-go 1.17
