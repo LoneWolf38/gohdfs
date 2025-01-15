@@ -32,7 +32,7 @@ import (
 	reflect "reflect"
 	sync "sync"
 
-	hadoop_common "github.com/LoneWolf38/go-hdfs/internal/protocol/hadoop_common"
+	hadoop_common "github.com/LoneWolf38/gohdfs/internal/protocol/hadoop_common"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 )
@@ -11282,6 +11282,7 @@ var (
 		(*GetErasureCodingCodecsResponseProto)(nil),              // 258: hadoop.hdfs.GetErasureCodingCodecsResponseProto
 	}
 )
+
 var file_ClientNamenodeProtocol_proto_depIdxs = []int32{
 	177, // 0: hadoop.hdfs.GetBlockLocationsResponseProto.locations:type_name -> hadoop.hdfs.LocatedBlocksProto
 	178, // 1: hadoop.hdfs.GetServerDefaultsResponseProto.serverDefaults:type_name -> hadoop.hdfs.FsServerDefaultsProto

@@ -4,7 +4,7 @@ import (
 	"os"
 	"path"
 
-	hdfs "github.com/LoneWol38/go-hdfs"
+	hdfs "github.com/LoneWol38/gohdfs"
 )
 
 func mv(paths []string, force, treatDestAsFile bool) {

@@ -9,8 +9,8 @@ import (
 	"strings"
 	"time"
 
-	hdfs "github.com/LoneWol38/go-hdfs"
-	"github.com/LoneWol38/go-hdfs/hadoopconf"
+	hdfs "github.com/LoneWol38/gohdfs"
+	"github.com/LoneWol38/gohdfs/hadoopconf"
 	"github.com/pborman/getopt"
 )
 

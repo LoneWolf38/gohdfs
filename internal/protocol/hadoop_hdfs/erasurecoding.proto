@@ -20,7 +20,7 @@ package hadoop.hdfs;
 
 import "hdfs.proto";
 
-option go_package = "github.com/LoneWolf38/go-hdfs/internal/protocol/hadoop_hdfs";
+option go_package = "github.com/LoneWolf38/gohdfs/internal/protocol/hadoop_hdfs";
 option java_generate_equals_and_hash = true;
 option java_outer_classname = "ErasureCodingProtos";
 option java_package = "org.apache.hadoop.hdfs.protocol.proto";

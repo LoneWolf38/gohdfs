@@ -1,4 +1,4 @@
-package hdfs
+package gohdfs
 
 import (
 	"fmt"
@@ -8,7 +8,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/LoneWolf38/go-hdfs/hadoopconf"
+	"github.com/LoneWolf38/gohdfs/hadoopconf"
 	krb "github.com/jcmturner/gokrb5/v8/client"
 	"github.com/jcmturner/gokrb5/v8/config"
 	"github.com/jcmturner/gokrb5/v8/credentials"

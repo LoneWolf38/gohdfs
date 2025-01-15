@@ -8,8 +8,8 @@ import (
 	"sync"
 	"time"
 
-	hadoop "github.com/LoneWolf38/go-hdfs/internal/protocol/hadoop_common"
-	hdfs "github.com/LoneWolf38/go-hdfs/internal/protocol/hadoop_hdfs"
+	hadoop "github.com/LoneWolf38/gohdfs/internal/protocol/hadoop_common"
+	hdfs "github.com/LoneWolf38/gohdfs/internal/protocol/hadoop_hdfs"
 	krb "github.com/jcmturner/gokrb5/v8/client"
 	"google.golang.org/protobuf/proto"
 )
@@ -107,7 +107,7 @@ func NewNamenodeConnection(options NamenodeConnectionOptions) (*NamenodeConnecti
 	clientId := newClientID()
 	c := &NamenodeConnection{
 		ClientID:   clientId,
-		ClientName: "go-hdfs-" + string(clientId),
+		ClientName: "gohdfs-" + string(clientId),
 		User:       user,
 
 		kerberosClient:               options.KerberosClient,

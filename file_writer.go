@@ -1,12 +1,12 @@
-package hdfs
+package gohdfs
 
 import (
 	"errors"
 	"os"
 	"time"
 
-	hdfs "github.com/LoneWol38/go-hdfs/internal/protocol/hadoop_hdfs"
-	"github.com/LoneWol38/go-hdfs/internal/transfer"
+	hdfs "github.com/LoneWol38/gohdfs/internal/protocol/hadoop_hdfs"
+	transfer "github.com/LoneWol38/gohdfs/internal/transfer"
 	"google.golang.org/protobuf/proto"
 )
 

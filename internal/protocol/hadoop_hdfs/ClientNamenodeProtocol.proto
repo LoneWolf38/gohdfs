@@ -33,7 +33,7 @@ import "hdfs.proto";
 import "inotify.proto";
 import "xattr.proto";
 
-option go_package = "github.com/LoneWolf38/go-hdfs/internal/protocol/hadoop_hdfs";
+option go_package = "github.com/LoneWolf38/gohdfs/internal/protocol/hadoop_hdfs";
 option java_generate_equals_and_hash = true;
 option java_generic_services = true;
 option java_outer_classname = "ClientNamenodeProtocolProtos";

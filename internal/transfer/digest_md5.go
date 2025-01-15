@@ -10,7 +10,7 @@ import (
 	"net"
 	"strings"
 
-	"github.com/LoneWolf38/go-hdfs/internal/sasl"
+	"github.com/LoneWolf38/gohdfs/internal/sasl"
 )
 
 const (

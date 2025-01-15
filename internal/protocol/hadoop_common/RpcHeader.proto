@@ -22,11 +22,12 @@
  * for what changes are allowed for a *stable* .proto interface.
  */
 syntax = "proto2";
-option java_package = "org.apache.hadoop.ipc.protobuf";
-option java_outer_classname = "RpcHeaderProtos";
-option java_generate_equals_and_hash = true;
-option go_package = "github.com/LoneWolf38/go-hdfs/internal/protocol/hadoop_common";
 package hadoop.common;
+
+option go_package = "github.com/LoneWolf38/gohdfs/internal/protocol/hadoop_common";
+option java_generate_equals_and_hash = true;
+option java_outer_classname = "RpcHeaderProtos";
+option java_package = "org.apache.hadoop.ipc.protobuf";
 
 /**
  * This is the rpc request header. It is sent with every rpc call.
@@ -125,7 +126,6 @@ message RpcResponseHeaderProto {
   }
 
   enum RpcErrorCodeProto {
-
     // Non-fatal Rpc error - connection left open for future rpc calls
     ERROR_APPLICATION = 1;          // RPC Failed - rpc app threw exception
     ERROR_NO_SUCH_METHOD = 2;       // Rpc error - no such method

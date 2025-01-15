@@ -32,7 +32,7 @@ import (
 	reflect "reflect"
 	sync "sync"
 
-	hadoop_common "github.com/LoneWolf38/go-hdfs/internal/protocol/hadoop_common"
+	hadoop_common "github.com/LoneWolf38/gohdfs/internal/protocol/hadoop_common"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 )
@@ -5617,6 +5617,7 @@ var (
 		(*FsPermissionProto)(nil),                   // 62: hadoop.hdfs.FsPermissionProto
 	}
 )
+
 var file_hdfs_proto_depIdxs = []int32{
 	0,  // 0: hadoop.hdfs.DatanodeVolumeInfoProto.storageType:type_name -> hadoop.hdfs.StorageTypeProto
 	18, // 1: hadoop.hdfs.DatanodeInfosProto.datanodes:type_name -> hadoop.hdfs.DatanodeInfoProto

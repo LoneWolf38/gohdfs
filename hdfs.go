@@ -14,4 +14,4 @@ Example:
 	fmt.Println(string(buf))
 	// => Abominable are the tumblers into which he pours his poison.
 */
-package hdfs
+package gohdfs

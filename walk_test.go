@@ -1,4 +1,4 @@
-package hdfs
+package gohdfs
 
 import (
 	"os"
@@ -33,10 +33,10 @@ func TestWalk(t *testing.T) {
 		"/_test/walk/dir/subdir/walkfile2",
 		"/_test/walk/dir/walkfile1",
 		"/_test/walk/dir/walkfile2",
-		"/_test/walk/walkfile"}
+		"/_test/walk/walkfile",
+	}
 
 	assert.Equal(t, expected, paths, "discrepancy between expected and walked paths.")
-
 }
 
 func TestWalkError(t *testing.T) {

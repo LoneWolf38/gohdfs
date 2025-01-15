@@ -7,7 +7,7 @@ import (
 	"io"
 	"os"
 
-	"github.com/LoneWolf38/go-hdfs"
+	"github.com/LoneWolf38/gohdfs"
 )
 
 const tailSearchSize int64 = 16384

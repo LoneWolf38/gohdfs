@@ -1,4 +1,4 @@
-package hdfs
+package gohdfs
 
 import (
 	"context"
@@ -11,11 +11,11 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/LoneWol38/go-hdfs/hadoopconf"
-	hadoop "github.com/LoneWol38/go-hdfs/internal/protocol/hadoop_common"
-	hdfs "github.com/LoneWolf38/go-hdfs/internal/protocol/hadoop_hdfs"
-	"github.com/LoneWolf38/go-hdfs/internal/rpc"
-	"github.com/LoneWolf38/go-hdfs/internal/transfer"
+	"github.com/LoneWol38/gohdfs/hadoopconf"
+	hadoop "github.com/LoneWol38/gohdfs/internal/protocol/hadoop_common"
+	hdfs "github.com/LoneWolf38/gohdfs/internal/protocol/hadoop_hdfs"
+	rpc "github.com/LoneWolf38/gohdfs/internal/rpc"
+	transfer "github.com/LoneWolf38/gohdfs/internal/transfer"
 	krb "github.com/jcmturner/gokrb5/v8/client"
 )
 

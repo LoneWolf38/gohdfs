@@ -6,7 +6,7 @@ import (
 	"path"
 	"path/filepath"
 
-	hdfs "github.com/LoneWol38/go-hdfs"
+	hdfs "github.com/LoneWol38/gohdfs"
 )
 
 func put(args []string) {

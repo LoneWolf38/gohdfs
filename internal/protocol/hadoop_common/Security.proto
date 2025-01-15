@@ -22,12 +22,13 @@
  * for what changes are allowed for a *stable* .proto interface.
  */
 syntax = "proto2";
-option java_package = "org.apache.hadoop.security.proto";
-option java_outer_classname = "SecurityProtos";
-option java_generic_services = true;
-option java_generate_equals_and_hash = true;
-option go_package = "github.com/LoneWolf38/go-hdfs/internal/protocol/hadoop_common";
 package hadoop.common;
+
+option go_package = "github.com/LoneWolf38/gohdfs/internal/protocol/hadoop_common";
+option java_generate_equals_and_hash = true;
+option java_generic_services = true;
+option java_outer_classname = "SecurityProtos";
+option java_package = "org.apache.hadoop.security.proto";
 
 /**
  * Security token identifier

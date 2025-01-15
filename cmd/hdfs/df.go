@@ -5,7 +5,7 @@ import (
 	"os"
 	"text/tabwriter"
 
-	hdfs "github.com/LoneWol38/go-hdfs"
+	hdfs "github.com/LoneWol38/gohdfs"
 )
 
 func df(humanReadable bool) {

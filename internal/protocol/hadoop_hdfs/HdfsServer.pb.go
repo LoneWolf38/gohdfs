@@ -35,7 +35,7 @@ import (
 	reflect "reflect"
 	sync "sync"
 
-	_ "github.com/LoneWolf38/go-hdfs/internal/protocol/hadoop_common"
+	_ "github.com/LoneWolf38/gohdfs/internal/protocol/hadoop_common"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 )
@@ -1637,6 +1637,7 @@ var (
 		(*ErasureCodingPolicyProto)(nil),                 // 23: hadoop.hdfs.ErasureCodingPolicyProto
 	}
 )
+
 var file_HdfsServer_proto_depIdxs = []int32{
 	4,  // 0: hadoop.hdfs.ExportedBlockKeysProto.currentKey:type_name -> hadoop.hdfs.BlockKeyProto
 	4,  // 1: hadoop.hdfs.ExportedBlockKeysProto.allKeys:type_name -> hadoop.hdfs.BlockKeyProto

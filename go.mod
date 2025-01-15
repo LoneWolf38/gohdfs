@@ -1,3 +1,3 @@
-module github.com/LoneWolf38/go-hdfs
+module github.com/LoneWolf38/gohdfs
 
-go 1.23
+go 1.17

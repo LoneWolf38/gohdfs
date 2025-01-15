@@ -32,7 +32,7 @@ import (
 	reflect "reflect"
 	sync "sync"
 
-	hadoop_common "github.com/LoneWolf38/go-hdfs/internal/protocol/hadoop_common"
+	hadoop_common "github.com/LoneWolf38/gohdfs/internal/protocol/hadoop_common"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 )
@@ -1715,6 +1715,7 @@ var (
 		(*ListReconfigurablePropertiesResponseProto)(nil), // 37: hadoop.hdfs.ListReconfigurablePropertiesResponseProto
 	}
 )
+
 var file_ClientDatanodeProtocol_proto_depIdxs = []int32{
 	28, // 0: hadoop.hdfs.GetReplicaVisibleLengthRequestProto.block:type_name -> hadoop.hdfs.ExtendedBlockProto
 	28, // 1: hadoop.hdfs.GetBlockLocalPathInfoRequestProto.block:type_name -> hadoop.hdfs.ExtendedBlockProto

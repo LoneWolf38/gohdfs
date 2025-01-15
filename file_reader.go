@@ -1,4 +1,4 @@
-package hdfs
+package gohdfs
 
 import (
 	"crypto/md5"
@@ -8,8 +8,8 @@ import (
 	"os"
 	"time"
 
-	hdfs "github.com/LoneWolf38/go-hdfs/internal/protocol/hadoop_hdfs"
-	"github.com/LoneWolf38/go-hdfs/internal/transfer"
+	hdfs "github.com/LoneWolf38/gohdfs/internal/protocol/hadoop_hdfs"
+	"github.com/LoneWolf38/gohdfs/internal/transfer"
 	"google.golang.org/protobuf/proto"
 )
 
