@@ -305,6 +305,28 @@ func (c *Client) CopyToRemote(src string, dst string) error {
 	return remote.Close()
 }
 
+// Copy copies a file from hdfs location to another hdfs location
+func (c *Client) Copy(src string, dst string) error {
+	remote_src, err := c.Open(src)
+	if err != nil {
+		return err
+	}
+	defer remote_src.Close()
+
+	remote_dst, err := c.Create(dst)
+	if err != nil {
+		return err
+	}
+
+	_, err = io.Copy(remote_dst, remote_src)
+	if err != nil {
+		remote_dst.Close()
+		return err
+	}
+
+	return remote_dst.Close()
+}
+
 func (c *Client) fetchDataEncryptionKey() (*hdfs.DataEncryptionKeyProto, error) {
 	if c.encryptionKey != nil {
 		return c.encryptionKey, nil
