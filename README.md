@@ -1,7 +1,6 @@
 <img src="docs/gopher.png" alt="gopher" align="right" width="200"/>
 
 HDFS Native Client for Go
-===========
 
 [![GoDoc](https://godoc.org/github.com/LoneWolf38/gohdfs/web?status.svg)](https://godoc.org/github.com/LoneWolf38/gohdfs) 
 
